@@ -9,7 +9,8 @@ group :development, :test do
   gem 'annotate', '~> 2.4.1.beta'
 end
 
-# Gems used only for assets and not required # in production environments by default. 
+# Gems used only for assets and not required 
+# in production environments by default. 
 
 group :assets do
   gem 'sass-rails',   '3.2.4'
@@ -18,7 +19,7 @@ group :assets do
   gem 'd3_rails', '~> 2.10.3'
 end
 
-gem 'jquery-rails', '2.0.0'
+gem 'jquery-rails', '2.1.4'
 
 group :test do
   gem 'capybara', '1.1.2'
