@@ -1,4 +1,4 @@
-Hugeblob::Application.routes.draw do
+Mikemertens::Application.routes.draw do
 
   root to: 'static_pages#home'
   
