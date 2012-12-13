@@ -10,7 +10,7 @@
 	}
 
 	body {
-		margin: 0 50px;
+		/*margin: 0 50px;*/
 		background: none;
 		-webkit-font-smoothing: antialiased;
 	}
@@ -25,7 +25,7 @@
 	}
 
 	header {
-		margin: 0px 0px 0px 0px;
+		margin: 0px;
 	}
 
 	.links a:link {
@@ -61,7 +61,7 @@
 
 	#mikemertens {
 		font: 14px/18px helvetica, sans-serif;
-		width: 200px;
+		width: 260px;
 		float: left;
 		list-style: none;
 	}
@@ -107,9 +107,9 @@
 /*	MAIN CONTENT  */
 
 	#content {
-		margin: 75px 80px 0px 0px;
+		margin: 75px 0px 0px 0px;
 		float: clear;
-		width: 800px; 
+		/* width: 1000px; */
 	}
 
 	.stuff {
@@ -194,34 +194,13 @@
 	}
 
 
-/*	----------------------------------------------------------
-	- RESPONSIVE LAYOUT : 840PX WIDE				 		 -
-	----------------------------------------------------------  */
-
-
-	@media screen and (max-width: 840px) {
-		
-		body {
-			width: 840px;
-		}
-
-		.stuff {
-		font: 50px/50px helvetica, sans-serif;
-		letter-spacing: -2px;
-		font-weight: 600;
-		display: inline;
-		margin-right: 22px;
-		opacity: 0;
-	}
-	}
-
 
 /*	----------------------------------------------------------
 	- RESPONSIVE LAYOUT : 1270PX WIDE				 		 -
 	----------------------------------------------------------  */
 
 
-	@media screen and (min-width: 1270px) {
+	@media screen and (min-width: 840px) {
 
 		#nav ul {
 			width: 250px;
@@ -229,16 +208,83 @@
 
 
 		body {
-			margin: 70px auto 100%;
-			width: 1000px;
-			padding-right: 6%;
+			/*margin: 70px auto 100%;
+			width: 1000px; */
+			padding-right: 10%;
+			padding-left: 10%;
 		}
 
 		#content {
-			min-width: 1100px;
-			max-width: 1200px;
+			/* min-width: 1100px;
+			max-width: 1200px; */
 			line-height: 32px;
 		}
+	}
+
+/*	----------------------------------------------------------
+	- RESPONSIVE LAYOUT : 1100PX WIDE				 		 -
+	----------------------------------------------------------  */
+
+
+	@media screen and (max-width: 1360px) {
+		
+		body {
+			padding-right: 6%;
+			padding-left: 6%;
+		}
+		
+
+		.stuff {
+		font: 65px/65px helvetica, sans-serif;
+		letter-spacing: -2px;
+		font-weight: 600;
+		display: inline;
+		/* margin-right: 22px; */
+		opacity: 0;
+		}
+
+		.small {
+		font: 30px/25px helvetica, sans-serif;
+		letter-spacing: 0px;
+		font-weight: 600;
+		display: inline;
+		margin-right: 6px;
+		opacity: 0;
+		}
+
+	}
+
+/*	----------------------------------------------------------
+	- RESPONSIVE LAYOUT : 780PX WIDE				 		 -
+	----------------------------------------------------------  */
+
+
+	@media screen and (max-width: 940px) {
+		
+		body {
+			padding-right: 6%;
+			padding-left: 6%;
+		}
+		
+
+		.stuff {
+		font: 50px/50px helvetica, sans-serif;
+		letter-spacing: -2px;
+		font-weight: 600;
+		display: inline;
+		/* margin-right: 22px; */
+		opacity: 0;
+		}
+
+		.small {
+		font: 20px/20px helvetica, sans-serif;
+		letter-spacing: 0px;
+		font-weight: 600;
+		display: inline;
+		margin-right: 6px;
+		opacity: 0;
+		}
+
 	}
 
 
