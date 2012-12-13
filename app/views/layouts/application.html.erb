@@ -4,6 +4,14 @@
   <title><%= full_title(yield(:title)) %></title>
   <%= stylesheet_link_tag "application", media: "all" %>
   <%= javascript_include_tag "application" %>
+  <script type="text/javascript" src="//use.typekit.net/zfv7fgx.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <%= csrf_meta_tags %>
   <%= render 'layouts/shim' %>
 </head>
@@ -11,7 +19,7 @@
 
 	<%= render 'layouts/header' %>
 
-	<div class="container">
+	<div id="content">
 	<%= yield %>
 	<%= render 'layouts/footer' %>
 	</div>

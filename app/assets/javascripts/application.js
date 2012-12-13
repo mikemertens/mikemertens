@@ -13,3 +13,34 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+$(document).ready(function() {
+
+	//
+	// Set each stuff span to 0 opacity and animate to fully opaque. 
+	// Used a series of delay methods to create cascade effect
+	//
+
+	$("#line1").delay(100).animate( {opacity: 1 } , 700);  				
+			
+	$("#line2").delay(15000).animate( {opacity: 1 } , 700);
+
+	$("#line3").delay(900).animate( {opacity: 1 } , 700);
+	
+	$("#line4").delay(1300).animate( {opacity: 1 } , 700);
+	
+	$("#line5").delay(1700).animate( {opacity: 1 } , 700);
+	
+	$("#line6").delay(3000).animate( {opacity: 1 } , 700);
+	
+	$("#line7").delay(3800).animate( {opacity: 1 } , 700);
+
+	$("#line8").delay(3000).animate( {opacity: 1 } , 700);
+	
+	$("#line9").delay(3800).animate( {opacity: 1 } , 700);
+
+	$("#line10").delay(3800).animate( {opacity: 1 } , 700);
+
+	$("#line11").delay(3800).animate( {opacity: 1 } , 700);
+
+});
