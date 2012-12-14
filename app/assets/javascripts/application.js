@@ -31,16 +31,16 @@ $(document).ready(function() {
 	
 	$("#line5").delay(1700).animate( {opacity: 1 } , 700);
 	
-	$("#line6").delay(3000).animate( {opacity: 1 } , 700);
+	$("#line6").delay(2500).animate( {opacity: 1 } , 700);
 	
-	$("#line7").delay(3800).animate( {opacity: 1 } , 700);
+	$("#line7").delay(3200).animate( {opacity: 1 } , 700);
 
-	$("#line8").delay(3000).animate( {opacity: 1 } , 700);
+	$("#line8").delay(2500).animate( {opacity: 1 } , 700);
 	
-	$("#line9").delay(3800).animate( {opacity: 1 } , 700);
+	$("#line9").delay(3200).animate( {opacity: 1 } , 700);
 
-	$("#line10").delay(3800).animate( {opacity: 1 } , 700);
+	$("#line10").delay(3200).animate( {opacity: 1 } , 700);
 
-	$("#line11").delay(3800).animate( {opacity: 1 } , 700);
+	$("#line11").delay(3200).animate( {opacity: 1 } , 700);
 
 });

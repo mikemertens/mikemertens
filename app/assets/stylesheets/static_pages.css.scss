@@ -197,7 +197,6 @@
 	- RESPONSIVE LAYOUT : 1270PX WIDE				 		 -
 	----------------------------------------------------------  */
 
-
 	@media screen and (min-width: 840px) {
 
 		#nav ul {
@@ -223,21 +222,18 @@
 	- RESPONSIVE LAYOUT : 1100PX WIDE				 		 -
 	----------------------------------------------------------  */
 
-
 	@media screen and (max-width: 1360px) {
 		
 		body {
 			padding-right: 6%;
 			padding-left: 6%;
 		}
-		
 
 		.stuff {
 		font: 65px/65px helvetica, sans-serif;
 		letter-spacing: -2px;
 		font-weight: 600;
 		display: inline;
-		/* margin-right: 22px; */
 		opacity: 0;
 		}
 
@@ -270,7 +266,6 @@
 		letter-spacing: -2px;
 		font-weight: 600;
 		display: inline;
-		/* margin-right: 22px; */
 		opacity: 0;
 		}
 
@@ -291,7 +286,6 @@
 
 	@media screen and (max-width: 460px) {
 
-
 		body {
 			margin-top: 20px;
 		}
@@ -310,26 +304,7 @@
 		}
 
 		#pages {
-			margin-top: 20px;
-		}
-
-		.links {
-			padding: 10px;
-			color: blue;
-			margin: 7px 0;
-			border: 3px solid blue;
-		}
-
-		.links::after {
-			content: " \279C";
-		}
-
-		#nav .links::before {
-			content: "";
-		}
-
-		#pages {
-			display: none;
+			margin-top: 0px;
 		}
 
 		#elsewhere {
@@ -340,27 +315,8 @@
 			display: none;
 		}
 
-
-		.links a:visited {
-			color: blue;
-			
-		}
-
-		.links a:hover, a:active {
-			color: blue;
-			background: none;
-			border-radius: 24px;
-			padding: 0 0px;
-			padding-left: 10px;
-			-webkit-transition: all .1s ease-in-out;
-			-moz-transition: all .1s ease-in-out;
-			transition: all .1s ease-in-out;
-		}
-
-
 		#content {
-			margin: 10px 0 20px 0px;
-			/* width: 410px; */
+			margin-top: 46px;
 		}
 
 		.stuff {
@@ -374,7 +330,6 @@
 		letter-spacing: 0px;
 		font-weight: 600;
 		display: inline;
-		margin-right: 6px;
 		opacity: 0;
 		}
 
