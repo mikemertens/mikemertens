@@ -193,8 +193,6 @@
 	    -webkit-text-overflow: ellipsis
 	}
 
-
-
 /*	----------------------------------------------------------
 	- RESPONSIVE LAYOUT : 1270PX WIDE				 		 -
 	----------------------------------------------------------  */
@@ -259,7 +257,7 @@
 	----------------------------------------------------------  */
 
 
-	@media screen and (max-width: 940px) {
+	@media screen and (max-width: 990px) {
 		
 		body {
 			padding-right: 6%;
@@ -277,7 +275,7 @@
 		}
 
 		.small {
-		font: 20px/20px helvetica, sans-serif;
+		font: 30px/25px helvetica, sans-serif;
 		letter-spacing: 0px;
 		font-weight: 600;
 		display: inline;
@@ -287,24 +285,15 @@
 
 	}
 
-
 /*	----------------------------------------------------------
 	- RESPONSIVE LAYOUT : 600PX WIDE				 		 -
 	----------------------------------------------------------  */
 
+	@media screen and (max-width: 400px) {
 
-	@media screen and (max-width: 600px) {
 
-
-		#logo {
-			display: block;
-			margin: 0 auto;
-			padding-right: 52%;
-			text-align: center;
-		}
-		
 		body {
-			margin-top: 30px;
+			margin-top: 20px;
 		}
 
 		#nav ul {
@@ -321,7 +310,7 @@
 		}
 
 		#pages {
-			margin-top: 30px;
+			margin-top: 20px;
 		}
 
 		.links {
@@ -339,6 +328,9 @@
 			content: "";
 		}
 
+		#pages {
+			display: none;
+		}
 
 		#elsewhere {
 			display: none;
@@ -367,8 +359,8 @@
 
 
 		#content {
-			margin: 10px 0 20px 10px;
-			width: 410px;
+			margin: 10px 0 20px 0px;
+			/* width: 410px; */
 		}
 
 		.stuff {
@@ -377,7 +369,16 @@
 			margin-right: 0;
 		}
 
-		.flag {
+		.small {
+		font: 20px/18px helvetica, sans-serif;
+		letter-spacing: 0px;
+		font-weight: 600;
+		display: inline;
+		margin-right: 6px;
+		opacity: 0;
+		}
+
+		#line2 {
 			display: none;
 		}
 
@@ -386,7 +387,17 @@
 		}
 
 		.footer {
-			display: none;
+		width: 100%;
+		display: inline;
+		opacity: 1;
+		border-top: 6px solid black;
+		padding: 15px 0 15px 0;
+		display: block;
+		margin-top: 20px;
+		/* HIDE OVERFLOW OF LONG TWEET */
+		white-space: nowrap;
+		overflow: hidden;
+	    -webkit-text-overflow: ellipsis
 		}
 
 	}
