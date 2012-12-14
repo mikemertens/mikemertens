@@ -79,7 +79,6 @@
 		color: red;
 	}
 
-
 	.home a:link {
 		color: black;
 		text-decoration: none;
@@ -193,12 +192,9 @@
 	    -webkit-text-overflow: ellipsis
 	}
 
-
-
 /*	----------------------------------------------------------
 	- RESPONSIVE LAYOUT : 1270PX WIDE				 		 -
 	----------------------------------------------------------  */
-
 
 	@media screen and (min-width: 840px) {
 
@@ -225,21 +221,18 @@
 	- RESPONSIVE LAYOUT : 1100PX WIDE				 		 -
 	----------------------------------------------------------  */
 
-
 	@media screen and (max-width: 1360px) {
 		
 		body {
 			padding-right: 6%;
 			padding-left: 6%;
 		}
-		
 
 		.stuff {
 		font: 65px/65px helvetica, sans-serif;
 		letter-spacing: -2px;
 		font-weight: 600;
 		display: inline;
-		/* margin-right: 22px; */
 		opacity: 0;
 		}
 
@@ -259,7 +252,7 @@
 	----------------------------------------------------------  */
 
 
-	@media screen and (max-width: 940px) {
+	@media screen and (max-width: 990px) {
 		
 		body {
 			padding-right: 6%;
@@ -272,12 +265,11 @@
 		letter-spacing: -2px;
 		font-weight: 600;
 		display: inline;
-		/* margin-right: 22px; */
 		opacity: 0;
 		}
 
 		.small {
-		font: 20px/20px helvetica, sans-serif;
+		font: 30px/25px helvetica, sans-serif;
 		letter-spacing: 0px;
 		font-weight: 600;
 		display: inline;
@@ -287,24 +279,14 @@
 
 	}
 
-
 /*	----------------------------------------------------------
 	- RESPONSIVE LAYOUT : 600PX WIDE				 		 -
 	----------------------------------------------------------  */
 
+	@media screen and (max-width: 460px) {
 
-	@media screen and (max-width: 600px) {
-
-
-		#logo {
-			display: block;
-			margin: 0 auto;
-			padding-right: 52%;
-			text-align: center;
-		}
-		
 		body {
-			margin-top: 30px;
+			margin-top: 20px;
 		}
 
 		#nav ul {
@@ -320,25 +302,23 @@
 			border-radius: 50px;
 		}
 
+		nav ul {
+		font: 14px/18px helvetica, sans-serif;
+		width: 200px;
+		float: left;
+		list-style: none;
+		}
+
+		#mikemertens {
+		font: 14px/18px helvetica, sans-serif;
+		width: 200px;
+		float: left;
+		list-style: none;
+		}
+
 		#pages {
-			margin-top: 30px;
+			margin-top: 0px;
 		}
-
-		.links {
-			padding: 10px;
-			color: blue;
-			margin: 7px 0;
-			border: 3px solid blue;
-		}
-
-		.links::after {
-			content: " \279C";
-		}
-
-		#nav .links::before {
-			content: "";
-		}
-
 
 		#elsewhere {
 			display: none;
@@ -348,27 +328,8 @@
 			display: none;
 		}
 
-
-		.links a:visited {
-			color: blue;
-			
-		}
-
-		.links a:hover, a:active {
-			color: blue;
-			background: none;
-			border-radius: 24px;
-			padding: 0 0px;
-			padding-left: 10px;
-			-webkit-transition: all .1s ease-in-out;
-			-moz-transition: all .1s ease-in-out;
-			transition: all .1s ease-in-out;
-		}
-
-
 		#content {
-			margin: 10px 0 20px 10px;
-			width: 410px;
+			margin-top: 46px;
 		}
 
 		.stuff {
@@ -377,7 +338,15 @@
 			margin-right: 0;
 		}
 
-		.flag {
+		.small {
+		font: 20px/18px helvetica, sans-serif;
+		letter-spacing: 0px;
+		font-weight: 600;
+		display: inline;
+		opacity: 0;
+		}
+
+		#line2 {
 			display: none;
 		}
 
@@ -386,7 +355,17 @@
 		}
 
 		.footer {
-			display: none;
+		width: 100%;
+		display: inline;
+		opacity: 1;
+		border-top: 6px solid black;
+		padding: 15px 0 15px 0;
+		display: block;
+		margin-top: 20px;
+		/* HIDE OVERFLOW OF LONG TWEET */
+		white-space: nowrap;
+		overflow: hidden;
+	    -webkit-text-overflow: ellipsis
 		}
 
 	}
