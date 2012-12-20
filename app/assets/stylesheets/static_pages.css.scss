@@ -10,7 +10,6 @@
 	}
 
 	body {
-		/*margin: 0 50px;*/
 		background: none;
 		-webkit-font-smoothing: antialiased;
 	}
@@ -87,7 +86,6 @@
 		transition: all .1s ease-in-out;
 	}
 
-
 	.home a:hover {
 		color: red;
 		padding-left: 10px;
@@ -128,9 +126,30 @@
 		font: 30px/25px helvetica, sans-serif;
 		letter-spacing: 0px;
 		font-weight: 600;
-		display: inline;
 		margin-right: 6px;
-		opacity: 0;
+	}
+
+	#worked {
+		font: 14px/32px helvetica, sans-serif;
+		width: 50%;
+		float: left;
+		list-style: none;
+	}
+
+	#projects {
+		font: 14px/32px helvetica, sans-serif;
+		width: 50%;
+		float: left;
+		list-style: none;
+	}
+
+	.line {
+		width: 100%;
+		display: inline;
+		border-top: 6px solid black;
+		padding: 15px 0 40px;
+		display: block;
+		margin-top: 40px;
 	}
 
 	/*
@@ -186,7 +205,7 @@
 		padding: 15px 0 40px;
 		display: block;
 		margin-top: 40px;
-		/* HIDE OVERFLOW OF LONG TWEET */
+		/* HIDE OVERFLOW */
 		white-space: nowrap;
 		overflow: hidden;
 	    -webkit-text-overflow: ellipsis

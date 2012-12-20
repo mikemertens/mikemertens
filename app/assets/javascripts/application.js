@@ -43,4 +43,8 @@ $(document).ready(function() {
 
 	$("#line11").delay(3800).animate( {opacity: 1 } , 700);
 
+	$("#line12").delay(3800).animate( {opacity: 1 } , 700);
+
+	$("#line13").delay(3000).animate( {opacity: 1 } , 700);
+
 });
