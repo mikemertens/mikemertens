@@ -106,7 +106,6 @@
 	#content {
 		margin: 75px 0px 0px 0px;
 		float: clear;
-		/* width: 1000px; */
 	}
 
 	.stuff {
@@ -134,6 +133,7 @@
 		width: 50%;
 		float: left;
 		list-style: none;
+		margin-top: 30px;
 	}
 
 	#projects {
@@ -141,6 +141,7 @@
 		width: 50%;
 		float: left;
 		list-style: none;
+		margin-top: 30px;
 	}
 
 	.line {
@@ -296,6 +297,19 @@
 		opacity: 0;
 		}
 
+		#worked {
+			float: none;
+			width: 100%;
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+
+		#projects {
+			float: none;
+			width: 100%;
+			margin-top: 0px;
+		}
+
 	}
 
 /*	----------------------------------------------------------
@@ -351,29 +365,42 @@
 			margin-top: 46px;
 		}
 
+		#worked {
+			float: none;
+			width: 100%;
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+
+		#projects {
+			float: none;
+			width: 100%;
+			margin-top: 0px;
+		}
+
 		.stuff {
-			font-size: 36px;
-			line-height: 39px;
-			margin-right: 0;
+		font-size: 36px;
+		line-height: 39px;
+		display: block;
+		margin-right: 0;
 		}
 
 		.small {
-		font: 20px/18px helvetica, sans-serif;
+		font: 20px/23px helvetica, sans-serif;
 		letter-spacing: 0px;
-		font-weight: 600;
-		display: inline;
+		font-weight: 400;
 		opacity: 0;
+		}
+
+		#line3 strong {
+		font-weight: 400;
 		}
 
 		#line2 {
 			display: none;
 		}
 
-		span + span.stuff:before {
-			content: "";
-		}
-
-		.footer {
+		.line {
 		width: 100%;
 		display: inline;
 		opacity: 1;
@@ -381,10 +408,6 @@
 		padding: 15px 0 15px 0;
 		display: block;
 		margin-top: 20px;
-		/* HIDE OVERFLOW OF LONG TWEET */
-		white-space: nowrap;
-		overflow: hidden;
-	    -webkit-text-overflow: ellipsis
 		}
 
 	}

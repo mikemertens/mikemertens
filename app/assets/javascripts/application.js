@@ -22,8 +22,6 @@ $(document).ready(function() {
 	//
 
 	$("#line1").delay(100).animate( {opacity: 1 } , 700);  				
-			
-	$("#line2").delay(15000).animate( {opacity: 1 } , 700);
 
 	$("#line3").delay(900).animate( {opacity: 1 } , 700);
 	
@@ -32,6 +30,8 @@ $(document).ready(function() {
 	$("#line5").delay(1700).animate( {opacity: 1 } , 700);
 	
 	$("#line6").delay(2500).animate( {opacity: 1 } , 700);
+
+	$("#line6").delay(2400).animate( {opacity: 1 } , 700);
 	
 	$("#line7").delay(3200).animate( {opacity: 1 } , 700);
 
@@ -46,5 +46,19 @@ $(document).ready(function() {
 	$("#line12").delay(3800).animate( {opacity: 1 } , 700);
 
 	$("#line13").delay(3000).animate( {opacity: 1 } , 700);
+
+	$("#zombie").delay(15000).animate( {opacity: 1 } , 700);
+
+	$("#work_side").delay(1500).animate( {opacity: 1 } , 700);
+
+	$("#projects_side").delay(1500).animate( {opacity: 1 } , 700);
+
+	$("#line22").delay(2400).animate( {opacity: 1 } , 700);
+
+	$("#line23").delay(2400).animate( {opacity: 1 } , 700);
+
+	$("#line24").delay(2400).animate( {opacity: 1 } , 700);
+
+	$("#line25").delay(2400).animate( {opacity: 1 } , 700);
 
 });

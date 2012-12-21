@@ -7,7 +7,7 @@ Mikemertens::Application.routes.draw do
   match '/d3',    to: 'static_pages#d3'
   match '/about',   to: 'static_pages#about'
   match '/contact', to: 'static_pages#contact'
-  match '/xpage', to: 'static_pages#xpage'
+  match '/mikemertens', to: 'static_pages#mikemertens'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
