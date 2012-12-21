@@ -104,7 +104,7 @@
 /*	MAIN CONTENT  */
 
 	#content {
-		margin: 75px 0px 0px 0px;
+		margin: 70px 0px 0px 0px;
 		float: clear;
 	}
 
@@ -195,21 +195,18 @@
 	- FOOTER 									     		 -
 	----------------------------------------------------------  */
 
-	.footer {
+	#footer {
 		width: 100%;
-		display: inline;
-		font: 18px/23px  helvetica, sans-serif;
-		font-weight: normal;
-	    -webkit-font-smoothing: antialiased;
-		opacity: 1;
-		border-top: 6px solid black;
-		padding: 15px 0 40px;
 		display: block;
-		margin-top: 40px;
-		/* HIDE OVERFLOW */
-		white-space: nowrap;
-		overflow: hidden;
-	    -webkit-text-overflow: ellipsis
+		margin-top: 100px;
+		padding-left: 4px;
+		float: none;
+	}
+
+	#footer ul li {
+		width: 360px;
+		float: left;
+		list-style: none;
 	}
 
 /*	----------------------------------------------------------
@@ -397,6 +394,9 @@
 
 		.blockit {
 			display: block;
+			float: clear;
+			width: 100%;
+			margin-bottom: 30px;
 		}
 
 		.small {

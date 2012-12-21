@@ -45,11 +45,13 @@ $(document).ready(function() {
 
 	$("#line13").delay(3000).animate( {opacity: 1 } , 700);
 
-	$("#zombie").delay(15000).animate( {opacity: 1 } , 700);
+	$("#zombie").delay(10000).animate( {opacity: 1 } , 700);
 
 	$("#work_side").delay(1500).animate( {opacity: 1 } , 700);
 
 	$("#projects_side").delay(1500).animate( {opacity: 1 } , 700);
+
+	$("#footer-test").delay(1000).animate( {opacity: 1 } , 700);
 
 	$("#line22").delay(2400).animate( {opacity: 1 } , 700);
 
@@ -58,5 +60,11 @@ $(document).ready(function() {
 	$("#line24").delay(2400).animate( {opacity: 1 } , 700);
 
 	$("#line25").delay(2400).animate( {opacity: 1 } , 700);
+
+	$("#line26").delay(2400).animate( {opacity: 1 } , 700);
+
+	$("#line27").delay(2400).animate( {opacity: 1 } , 700);
+
+	
 
 });
