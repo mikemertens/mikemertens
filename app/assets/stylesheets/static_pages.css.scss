@@ -113,7 +113,7 @@
 		letter-spacing: -2px;
 		font-weight: 600;
 		display: inline;
-		margin-right: 22px;
+		margin-right: 10px;
 		opacity: 0;
 	}
 
@@ -122,7 +122,7 @@
 	}
 
 	.small {
-		font: 30px/25px helvetica, sans-serif;
+		font: 30px/28px helvetica, sans-serif;
 		letter-spacing: 0px;
 		font-weight: 600;
 		margin-right: 6px;
@@ -224,17 +224,14 @@
 
 
 		body {
-			/*margin: 70px auto 100%;
-			width: 1000px; */
 			padding-right: 10%;
 			padding-left: 10%;
 		}
 
 		#content {
-			/* min-width: 1100px;
-			max-width: 1200px; */
 			line-height: 32px;
 		}
+
 	}
 
 /*	----------------------------------------------------------
@@ -257,7 +254,7 @@
 		}
 
 		.small {
-		font: 30px/25px helvetica, sans-serif;
+		font: 30px/28px helvetica, sans-serif;
 		letter-spacing: 0px;
 		font-weight: 600;
 		display: inline;
@@ -289,12 +286,16 @@
 		}
 
 		.small {
-		font: 30px/25px helvetica, sans-serif;
+		font: 30px/28px helvetica, sans-serif;
 		letter-spacing: 0px;
 		font-weight: 600;
 		display: inline;
 		margin-right: 6px;
 		opacity: 0;
+		}
+
+		#zombie {
+		display: none;
 		}
 
 		#worked {
@@ -310,13 +311,23 @@
 			margin-top: 0px;
 		}
 
+		.line {
+		width: 100%;
+		display: inline;
+		opacity: 1;
+		border-top: 6px solid black;
+		padding: 15px 0 15px 0;
+		display: block;
+		margin-top: 20px;
+		}
+
 	}
 
 /*	----------------------------------------------------------
 	- RESPONSIVE LAYOUT : 600PX WIDE				 		 -
 	----------------------------------------------------------  */
 
-	@media screen and (max-width: 460px) {
+	@media screen and (max-width: 580px) {
 
 		body {
 			margin-top: 20px;
@@ -381,8 +392,11 @@
 		.stuff {
 		font-size: 36px;
 		line-height: 39px;
-		display: block;
 		margin-right: 0;
+		}
+
+		.blockit {
+		display: block;
 		}
 
 		.small {
@@ -396,8 +410,8 @@
 		font-weight: 400;
 		}
 
-		#line2 {
-			display: none;
+		#zombie {
+		display: none;
 		}
 
 		.line {
