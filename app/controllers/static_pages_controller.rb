@@ -8,6 +8,9 @@ class StaticPagesController < ApplicationController
   def contact
   end
 
+  def mikemertens
+  end
+
   def css3test
   end
 
