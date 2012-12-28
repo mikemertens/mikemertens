@@ -67,6 +67,8 @@ $(document).ready(function() {
 
 	$("#line27").delay(2400).animate( {opacity: 1 } , 700);
 
+	$("#line30").delay(3200).animate( {opacity: 1 } , 700);
+
 	
 
 });
