@@ -30,14 +30,14 @@
 	.links a:link {
 		display: inline-block;
 		text-decoration: none;
-		color: black;
+		color: #333333;
 		-webkit-transition: all .1s ease-in-out;
 		-moz-transition: all .1s ease-in-out;
 		transition: all .1s ease-in-out;
 	}
 
 	.links a:visited {
-		color: black;
+		color: #333333;
 	}
 
 	.links a:hover, a:active {
@@ -111,6 +111,7 @@
 	.stuff {
 		font: 80px/80px helvetica, sans-serif;
 		letter-spacing: -2px;
+		color: #101010;
 		font-weight: 600;
 		display: inline;
 		margin-right: 10px;
@@ -121,8 +122,17 @@
 		color: #FF0066;
 	}
 
+	.medium {
+		font: 30px/28px helvetica, sans-serif;
+		color: #111111;
+		letter-spacing: 0px;
+		font-weight: 600;
+		margin-right: 6px;
+	}
+
 	.small {
 		font: 30px/28px helvetica, sans-serif;
+		color: #323232;
 		letter-spacing: 0px;
 		font-weight: 600;
 		margin-right: 6px;
