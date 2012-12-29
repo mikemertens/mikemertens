@@ -182,7 +182,7 @@
 
 	#content a:hover, a:active {
 		padding: 0px .2em;
-	    color: yellow;
+	    color: grey;
 		border-radius: 4px;
 		background: black;
 		-webkit-transition: all .1s ease-in-out;
@@ -191,9 +191,7 @@
 	}
 
 
-/*	----------------------------------------------------------
-	- FOOTER 									     		 -
-	----------------------------------------------------------  */
+/*	FOOTER 	*/
 
 	#footer {
 		width: 100%;
@@ -209,9 +207,7 @@
 		list-style: none;
 	}
 
-/*	----------------------------------------------------------
-	- RESPONSIVE LAYOUT : 1270PX WIDE				 		 -
-	----------------------------------------------------------  */
+/*	RESPONSIVE LAYOUT : 1270PX WIDE	 */
 
 	@media screen and (min-width: 840px) {
 
@@ -231,9 +227,7 @@
 
 	}
 
-/*	----------------------------------------------------------
-	- RESPONSIVE LAYOUT : 1100PX WIDE				 		 -
-	----------------------------------------------------------  */
+/*	RESPONSIVE LAYOUT : 1100PX WIDE	 */
 
 	@media screen and (max-width: 1360px) {
 		
@@ -261,9 +255,7 @@
 
 	}
 
-/*	----------------------------------------------------------
-	- RESPONSIVE LAYOUT : 780PX WIDE				 		 -
-	----------------------------------------------------------  */
+/*	RESPONSIVE LAYOUT : 780PX WIDE */
 
 
 	@media screen and (max-width: 990px) {
@@ -320,9 +312,7 @@
 
 	}
 
-/*	----------------------------------------------------------
-	- RESPONSIVE LAYOUT : 600PX WIDE				 		 -
-	----------------------------------------------------------  */
+/*	RESPONSIVE LAYOUT : 600PX WIDE	*/
 
 	@media screen and (max-width: 580px) {
 
